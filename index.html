@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shivam Agrahari — Portfolio • PRODIGY_WD_04</title>
+  <meta name="description" content="Portfolio of Shivam Agrahari — Web Development Intern at Prodigy InfoTech. Projects, skills, resume and contact." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animation">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+
+  <header id="header" class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-name">Shivam</span><span class="brand-accent">.</span>
+      </a>
+
+      <nav id="primary-navigation" class="nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a></li>
+          <li><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
+          <li><a class="nav-link" href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+          <li><a class="nav-link" href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+          <li><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-sun sun-icon"></i>
+          <i class="fas fa-moon moon-icon"></i>
+        </button>
+        <button id="nav-toggle" class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="greeting">👋 Hello, I'm</div>
+          <h1 class="hero-title">
+            <span class="title-line">Shivam</span>
+            <span class="title-line">Agrahari</span>
+          </h1>
+          <p class="hero-subtitle">Web Developer & a coding enthusiast</p>
+          <p class="lead">Building responsive web applications with modern technologies. Passionate about clean code, user experience, and continuous learning.</p>
+          <div class="cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-rocket"></i>
+              View My Work
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fas fa-paper-plane"></i>
+              Get In Touch
+            </a>
+          </div>
+          <div class="social-links-hero">
+            <a href="https://github.com/shivamcodez01" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shivam-agrahari-587760379" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-hidden="true">
+          <div class="card-glow"></div>
+          <div class="avatar-circle">
+            <img src="me.png" alt="Shivam Agrahari" class="avatar-image" />
+          </div>
+          <div class="hero-card-content">
+            <h3 class="card-title">Web Development Intern</h3>
+            <p class="card-subtitle">Prodigy InfoTech</p>
+            <div class="status-badge">
+              <span class="status-dot"></span>
+              Available for opportunities
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll-indicator">
+        <span class="scroll-text">Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <span class="section-label">Get to know me</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-text">I'm a passionate BCA student in my 1st year. I love creating beautiful, responsive, and user-friendly interfaces that provide excellent user experiences.</p>
+            <p class="about-text">My journey in web development started with curiosity and has grown into a dedication to mastering modern web technologies. I'm constantly learning and improving my skills through hands-on projects and staying updated with industry trends.</p>
+            
+            <div class="about-stats">
+              <div class="stat-card">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Technologies</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Dedication</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-info">
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h4 class="info-title">Location</h4>
+                <p class="info-text">India</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="info-content">
+                <h4 class="info-title">Education</h4>
+                <p class="info-text">BCA Student</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="info-content">
+                <h4 class="info-title">Focus</h4>
+                <p class="info-text">Web Development</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="info-content">
+                <h4 class="info-title">Status</h4>
+                <p class="info-text">Open to Opportunities</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <span class="section-label">What I've built</span>
+          <h2 class="section-title">My Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3 class="project-title">Responsive Landing Page</h3>
+            <p class="project-desc">Modern landing page with fixed header, smooth scrolling, and mobile-responsive navigation. Built with HTML5, CSS3, and vanilla JavaScript.</p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shivamcodez01/PRODIGY_WD_01" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fab fa-github"></i> Source
+              </a>
+              <a href="https://shivamcodez01.github.io/PRODIGY_WD_01/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-icon">
+              <i class="fas fa-stopwatch"></i>
+            </div>
+            <h3 class="project-title">Stopwatch Application</h3>
+            <p class="project-desc">Precision stopwatch with start, stop, reset, and lap functionality. Uses performance.now() for accurate timing and features accessible controls.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">DOM API</span>
+              <span class="tag">UX Design</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shivamcodez01/PRODIGY_WD_02" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fab fa-github"></i> Source
+              </a>
+              <a href="https://shivamcodez01.github.io/PRODIGY_WD_02/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <h3 class="project-title">Tic-Tac-Toe Game</h3>
+            <p class="project-desc">Interactive game with 2-player mode and AI opponent. Features Minimax algorithm for unbeatable computer player with difficulty levels.</p>
+            <div class="project-tags">
+              <span class="tag">Game Dev</span>
+              <span class="tag">AI Algorithm</span>
+              <span class="tag">Minimax</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shivamcodez01/PRODIGY_WD_03" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fab fa-github"></i> Source
+              </a>
+              <a href="https://shivamcodez01.github.io/PRODIGY_WD_03/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div class="project-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-desc">Modern portfolio website with dark/light theme toggle, glassmorphism effects, smooth animations, and responsive design. Showcases projects and skills professionally.</p>
+            <div class="project-tags">
+              <span class="tag">Portfolio</span>
+              <span class="tag">Responsive</span>
+              <span class="tag">Theme Toggle</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/shivamcodez01/PRODIGY_WD_04" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fab fa-github"></i> Source
+              </a>
+              <a href="https://shivamcodez01.github.io/PRODIGY_WD_04/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <span class="section-label">My expertise</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Semantic markup, accessibility, SEO best practices</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3 class="skill-name">CSS3</h3>
+            <p class="skill-desc">Flexbox, Grid, animations, responsive design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-desc">ES6+, DOM manipulation, async programming</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3 class="skill-name">Responsive Design</h3>
+            <p class="skill-desc">Mobile-first approach, cross-browser compatibility</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-git-alt"></i>
+            </div>
+            <h3 class="skill-name">Git & GitHub</h3>
+            <p class="skill-desc">Version control, collaboration, code management</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <span class="section-label">Let's connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="contact-intro">I'm always interested in hearing about new opportunities, collaborations, or just connecting with fellow developers. Feel free to reach out!</p>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="method-content">
+                  <h4>Email</h4>
+                  <a href="mailto:abcd868@gmail.com">abcd868@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="method-content">
+                  <h4>LinkedIn</h4>
+                  <a href="linkedin.com/in/shivam-agrahari-587760379" target="_blank" rel="noopener noreferrer">Shivam Agrahari</a>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="method-content">
+                  <h4>GitHub</h4>
+                  <a href="https://github.com/shivamcodez01" target="_blank" rel="noopener noreferrer">@shivamcodez01</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form" aria-label="Contact form">
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Abcd ab" required />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="abcd@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Tell me about your project..." rows="5" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+              <button type="button" id="downloadResume" class="btn btn-outline">
+                <i class="fas fa-download"></i>
+                Download Resume
+              </button>
+            </div>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <h3>Shivam<span class="brand-accent">.</span></h3>
+          <p class="footer-tagline">Building the web, one project at a time.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="https://github.com/shivamcodez01" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="linkedin.com/in/shivam-agrahari-587760379" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2025 Shivam Agrahari. All rights reserved.</p>
+        <p class="footer-credit">Built for Prodigy InfoTech Internship (PRODIGY_WD_04)</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
